@@ -1,4 +1,5 @@
-﻿using System.Drawing.Imaging;
+﻿using System;
+using System.Drawing.Imaging;
 
 namespace BitmapGenerator
 {
@@ -6,8 +7,8 @@ namespace BitmapGenerator
     {
         static void Main(string[] args)
         {
-            var img = new DrawPicture().Draw(500, 200);
-            img.Save("file.png", ImageFormat.Png);
+            var img = new DrawPicture().Draw(2000, 2000);
+            img.Save($"BitmapGenerated-{DateTime.Now:HH-mm-ss}.png", ImageFormat.Png);
         }
     }
 }

@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.31112.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitmapGenerator", "BitmapGenerator\BitmapGenerator.csproj", "{AE005949-3948-4E38-ADEB-E494A1C96211}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitmapGenerator.test", "BitmapGenerator.test\BitmapGenerator.test.csproj", "{6F86656C-D86F-44DD-8A5D-EEB43F21ECE4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{AE005949-3948-4E38-ADEB-E494A1C96211}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE005949-3948-4E38-ADEB-E494A1C96211}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE005949-3948-4E38-ADEB-E494A1C96211}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F86656C-D86F-44DD-8A5D-EEB43F21ECE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F86656C-D86F-44DD-8A5D-EEB43F21ECE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F86656C-D86F-44DD-8A5D-EEB43F21ECE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F86656C-D86F-44DD-8A5D-EEB43F21ECE4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
