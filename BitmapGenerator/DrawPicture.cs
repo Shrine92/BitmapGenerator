@@ -11,7 +11,7 @@ namespace BitmapGenerator
         {
             var img = new Bitmap(width, height);
 
-            // 
+            // test
 
             return img;
         }
