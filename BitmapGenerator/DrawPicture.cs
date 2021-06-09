@@ -11,8 +11,8 @@ namespace BitmapGenerator
         public int _width { get; private set; }
 
         private readonly Random _random = new();
-        private const int MinBoundariesPoint = 4;
-        private const int MaxBoundariesPoint = 4;
+        private const int MinBoundariesPoint = 3;
+        private const int MaxBoundariesPoint = 3;
 
 
         public Bitmap Draw(int height, int width)
