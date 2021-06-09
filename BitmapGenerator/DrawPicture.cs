@@ -30,7 +30,7 @@ namespace BitmapGenerator
 
             for (int i = 0; i < nbrPoints; i++)
             {
-                var boundarie = PointInsideBoundaries();
+                var boundarie = PointInsideImage();
                 // Mark the currentPoint on the Bitmap
                 img.SetPixel(boundarie.X, boundarie.Y, Color.Black);
 
@@ -38,7 +38,7 @@ namespace BitmapGenerator
             }
 
             // Take a random point to start
-            var currentPoint = PointInsideBoundaries();
+            var currentPoint = PointInsideImage();
 
 
             // Take enough iteration to fill the bitmap
@@ -56,7 +56,7 @@ namespace BitmapGenerator
             return img;
         }
 
-        private Point PointInsideBoundaries()
+        private Point PointInsideImage()
             => new Point(RandomNumber(0, _width), RandomNumber(0, _height));
 
 
