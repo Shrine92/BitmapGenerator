@@ -32,7 +32,7 @@ namespace BitmapGenerator
             {
                 var boundarie = PointInsideImage();
                 // Mark the currentPoint on the Bitmap
-                img.SetPixel(boundarie.X, boundarie.Y, Color.Black);
+                img.SetPixel(boundarie.X, boundarie.Y, Color.Red);
 
                 boundaries.Add(boundarie);
             }
